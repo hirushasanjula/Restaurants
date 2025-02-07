@@ -23,7 +23,7 @@ const Hero = () => {
     const [imageId, setImageId] = React.useState(Food1);
 
     return (
-        <div className="min-h-[550px] sm:min-h-[600px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200">
+        <div className="min-h-[550px] sm:min-h-[600px] bg-green-100 flex justify-center items-center duration-200">
             <div className="container pb-8 sm:pb-0">
                 <div className="grid grid-cols-1 sm:grid-cols-2">
                     {/* Left */}
@@ -39,7 +39,8 @@ const Hero = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.
                         </p>
                         <div>
-                            <button className="bg-gradient-to-r from-green-500 to-green-700 text-white px-4 py-1 rounded-full hover:scale-105 duration-300 flex items-center gap-3">
+                            <button className="bg-gradient-to-r from-green-500 to-green-700 text-white px-6 sm:px-8 py-2 sm:py-3 text-lg sm:text-xl
+                             rounded-full hover:scale-105 duration-300 flex items-center justify-center gap-3 w-full max-w-[200px] mx-auto sm:mx-0">
                                 Order now
                             </button>
                         </div>
