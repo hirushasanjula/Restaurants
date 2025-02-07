@@ -1,7 +1,7 @@
 import React from 'react';
 import Img1 from "../../assets/biriyani.png";
 import Img2 from "../../assets/burger.png";
-import Img3 from "../../assets/coffe.png";
+import Img3 from "../../assets/coffee.png";
 
 const ServicesData = [
     {

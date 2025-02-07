@@ -4,7 +4,7 @@ import { FaCartShopping } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 fit'>
+    <div className='lg:fixed w-full shadow-md bg-white duration-200 z-50'>
         <div className='container'>
             <div className='flex justify-between py-2 p-6 items-center'>
                 <div>

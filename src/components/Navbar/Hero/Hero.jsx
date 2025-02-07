@@ -1,7 +1,7 @@
 import React from "react";
 import Food1 from "../../../assets/biriyani.png";
 import Food2 from "../../../assets/burger.png";
-import Food3 from "../../../assets/coffe.png";
+import Food3 from "../../../assets/coffee.png";
 import bgImg from "../../../assets/bg.png";
 
 const ImageList = [
@@ -48,9 +48,6 @@ const Hero = () => {
                     <div className="order-1 sm:order-2 min-h-[450px] sm:min-h-[450px] flex justify-center items-center relative">
                         <div className="flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden">
                             <img
-                                data-aos="zoom-in"
-                                data-aos-duration="300"
-                                data-aos-once="true"
                                 src={imageId}
                                 alt="Selected Food"
                                 className="w-[300px] sm:w-[450px] mx-auto spin"
